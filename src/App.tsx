@@ -5,6 +5,7 @@ import IlustrationSection from "./components/IlustrationSection"
 
 import ScreenMockups from './assets/images/screen-mockups.svg'
 import StatisticsSection from "./components/StatisticsSection"
+import Ready from "./components/Ready"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <ImageContainer image={ScreenMockups}/>
       <StatisticsSection />
       <IlustrationSection />
+      <Ready />
     </div>
   )
 }
