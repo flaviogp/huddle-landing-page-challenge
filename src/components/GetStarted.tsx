@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 const GetStarted = () => {
   return (
     <section className="container w-full flex flex-col gap-7 items-center p-5 mt-16">
@@ -6,9 +8,7 @@ const GetStarted = () => {
             Huddle re-imagines the way we build communities. You have a voice, bot so does
             your audience. Create connections with your users as you engage in genuine discussion.
         </p>   
-        <a href="" className="px-10 py-3 bg-tPink text-white rounded-full shadow-md hover:bg-tLightPink transition-all duration-[.4s] font-semibold">
-            Get Started For Free
-        </a> 
+        <Button />
     </section>
   )
 }
