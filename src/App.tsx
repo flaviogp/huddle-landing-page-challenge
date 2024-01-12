@@ -6,6 +6,7 @@ import IlustrationSection from "./components/IlustrationSection"
 import ScreenMockups from './assets/images/screen-mockups.svg'
 import StatisticsSection from "./components/StatisticsSection"
 import Ready from "./components/Ready"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <StatisticsSection />
       <IlustrationSection />
       <Ready />
+      <Footer />
     </div>
   )
 }

@@ -20,7 +20,7 @@ const BackgroundsContainer = ({children, bgBottom, bgTop}: BackgroundContainerPr
         }
         {
             bgTop == 'footer' &&
-            <div className={`w-full h-[150px] bg-mobileBgFooterTop bg-contain bg-no-repeat`}></div>
+            <div className={`w-full h-[69px] mb-[-1px] bg-mobileBgFooterTop bg-contain bg-no-repeat`}></div>
         }
             {children}
 
