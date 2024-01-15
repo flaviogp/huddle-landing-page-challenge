@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="flex flex-col max-w-[1440px]">
+    <div className="flex flex-col max-w-[1440px] items-center">
       <Header />
       <GetStarted />
       <ImageContainer image={ScreenMockups}/>

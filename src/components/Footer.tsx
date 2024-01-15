@@ -5,7 +5,7 @@ import Newsletter from "./Newsletter"
 const Footer = () => {
   return (
     <BackgroundsContainer bgTop="footer">
-        <footer className="bg-tVeryDarkCyan container flex flex-col items center gap-10">
+        <footer className="container bg-tVeryDarkCyan flex flex-col items-center lg:flex-row-reverse lg:items-start lg:justify-around gap-10 p-7">
             <Newsletter />
             <Contacts />
         </footer>
