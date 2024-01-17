@@ -15,6 +15,7 @@ const IlustrationSection = () => {
             title='Grow Together'
             text='Generate meaningfull discussions with your audience and build a strong, loyal community. think of the insightfull conversations you miss out on with a feedback form.'
             bg
+            reverse
         />
       </BackgroundsContainer>
         <Ilustration 
@@ -28,6 +29,7 @@ const IlustrationSection = () => {
           title='Your Users'
           text={`It takes no time at all to integrate Huddle with your app's  authentication solution. this means, once signed in to your app, your users can start chatting immediately.`}
           bg
+          reverse
         />
       </BackgroundsContainer>
     </section>
