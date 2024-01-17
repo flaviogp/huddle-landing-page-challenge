@@ -34,12 +34,12 @@ const Newsletter = () => {
 
         <form name="form" onSubmit={(e) => handleSubmit(e)} method="GET"  className="flex flex-wrap justify-end w-full lg:w-[520px] gap-5 lg:gap-0 lg:justify-between">
 
-            <label htmlFor="email">
+            <label htmlFor="email" className="w-full lg:max-w-[330px]">
                 <input 
                   type="email" 
                   name="email" 
                   id="email" 
-                  className="w-full p-2 rounded-md lg:max-w-[330px] text-tVeryDarkCyan font-semibold"
+                  className="w-full p-2 rounded-md text-tVeryDarkCyan font-semibold"
                   onChange={(e) => setEmail(e.currentTarget.value)}
                 />
             </label>
