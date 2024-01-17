@@ -25,15 +25,21 @@ const Contacts = () => {
                 <p>example@company.com</p>
             </div>
         </div>
-        <ul className='flex gap-5'>
+        <ul className='flex gap-5' id="contact-list">
             <li>
-                <img src={FacebookIcon} alt="Facebook Icon" className='w-7 h-7'/>
+                <a href="#contact-list">
+                    <img src={FacebookIcon} alt="Facebook Icon" className='w-7 h-7'/>
+                </a>
             </li>
             <li>
-                <img src={InstagramIcon} alt="Instagram Icon" className='w-7 h-7'/>
+                <a href="#contact-list">
+                    <img src={InstagramIcon} alt="Instagram Icon" className='w-7 h-7'/>
+                </a>
             </li>
             <li>
-                <img src={TwitterIcon} alt="Twitter Icon" className='w-7 h-7'/>
+                <a href="#contact-list">
+                    <img src={TwitterIcon} alt="Twitter Icon" className='w-7 h-7'/>
+                </a>
             </li>
         </ul>    
     </div>
